@@ -14,4 +14,4 @@ Exercises reading data from keyboard.
 
 
 ## • [Apartado 4](https://github.com/FESEVA/EjerciciosPseint/tree/main/Apartado%204)
-Exercises knowing conditionals situations.
+Exercises knowing conditional situations.
