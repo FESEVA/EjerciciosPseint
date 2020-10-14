@@ -1,0 +1,33 @@
+Algoritmo Ejercicio7Variables
+	Escribir "Cálculo de la factura del pedido nº 1:";
+	Definir tomate, aceite, salchichas, arroz, huevo, ct, ca, cs, car, ch, suma, calculoIVA, total  Como Real;
+	tomate <- 2;
+	aceite <- 1.5;
+	salchichas <- 2.68;
+	arroz <- 1;
+	huevo <- 3.39;
+	Escribir Sin Saltar "Introduzca la cantidad de tomates que desea comprar: ";
+	Leer ct;
+	Escribir Sin Saltar "Introduzca la cantidad de aceite que desea comprar: ";
+	Leer ca;
+	Escribir Sin Saltar "Introduzca la cantidad de salchichas que desea comprar: ";
+	Leer cs;
+	Escribir Sin Saltar "Introduzca la cantidad de arroz que desea comprar: ";
+	Leer car;
+	Escribir Sin Saltar "Introduzca la cantidad de huevos que desea comprar: ";
+	Leer ch;
+	suma <- (ct * tomate) + (ca * aceite) + (cs * salchichas) + (car * arroz) + (ch * huevo);
+	calculoIVA <- suma * 0.21;
+	total <- calculoIVA + suma;
+	Escribir "           MERCARROÑA           ";
+	Escribir "Ud ha sido atendido por: Paquita";
+	Escribir "Cantidad | Producto  | Precio";
+	Escribir ct, "       Tomate:     ", (ct * tomate), " euros";
+	Escribir ca, "       Aceite      ", (ca * aceite), " euros";
+	Escribir car,"       Arroz       ", (car * arroz), " euros";
+	Escribir cs, "       Salchichas  ", (cs * salchichas), " euros";
+	Escribir ch, "       Huevos      ", (ch * huevo), " euros";
+	Escribir "Precio sin IVA: ", suma;
+	Escribir "IVA de la compra: ", calculoIVA;
+	Escribir "Total a pagar (Incluye IVA): ", total;
+FinAlgoritmo
